@@ -127,7 +127,7 @@ async function validate(request: Request, body: FormData | URLSearchParams) {
 }
 
 export const meta: V2_MetaFunction = () => {
-	return [{ title: 'Verify Password Recovery for Epic Notes' }]
+	return [{ title: 'Verify Password Recovery for Vehicle Care' }]
 }
 
 export default function ForgotPasswordVerifyRoute() {

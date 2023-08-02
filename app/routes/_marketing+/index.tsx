@@ -7,7 +7,7 @@ import {
 } from '~/components/ui/tooltip.tsx'
 import { logos, stars } from './logos/logos.ts'
 
-export const meta: V2_MetaFunction = () => [{ title: 'Epic Notes' }]
+export const meta: V2_MetaFunction = () => [{ title: 'Vehicle Care' }]
 
 export default function Index() {
 	return (

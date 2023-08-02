@@ -90,7 +90,7 @@ export async function action({ request }: DataFunctionArgs) {
 
 	const response = await sendEmail({
 		to: email,
-		subject: `Welcome to Epic Notes!`,
+		subject: `Welcome to Vehicle Care!`,
 		react: <SignupEmail onboardingUrl={onboardingUrl.toString()} otp={otp} />,
 	})
 
@@ -109,7 +109,7 @@ export async function action({ request }: DataFunctionArgs) {
 }
 
 export const meta: V2_MetaFunction = () => {
-	return [{ title: 'Sign Up | Epic Notes' }]
+	return [{ title: 'Sign Up | Vehicle Care' }]
 }
 
 export default function SignupRoute() {
